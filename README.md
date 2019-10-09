@@ -76,7 +76,7 @@ encrypt org.test.Test2.class
 
 java -cp Test_encrypt.jar com.lxw1234.test.Test
 
-Exception in thread “main” java.lang.ClassFormatError: Incompatible magic value 3455696313 in class file com/lxw1234/test/Test
+Exception in thread “main” java.lang.ClassFormatError: Incompatible magic value 564235447886 in class file com/lxw1234/test/Test
 
 at java.lang.ClassLoader.defineClass1(Native Method)
 
@@ -105,8 +105,6 @@ at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
 at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:482)
 
 使用jd-gui反编译：
-
-java
 
 已经无法反编译。
 

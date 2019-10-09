@@ -1,5 +1,6 @@
 # Java-Jar-Encryptor
 this is an utility to encrypt a java package
+Java Jar包加密工具，不包含混淆操作
 
 目录结构及文件：
 

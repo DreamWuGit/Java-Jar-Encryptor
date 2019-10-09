@@ -4,13 +4,13 @@ Java Jar包加密工具，不包含混淆操作
 
 目录结构及文件：
 
-./JarEncrypt2/encrypt   ## 加密库
+./Java-Jar-Encryptor/encrypt   ## 加密库
 
 —– encrypt.cpp
 
 —– Makefile
 
-./JarEncrypt2/decrypt    ## 解密库
+./Java-Jar-Encryptor/decrypt    ## 解密库
 
 —–decrypt.cpp
 
@@ -34,7 +34,7 @@ if(name&&strncmp(name,”org/test/”,12)==0){
 
 进入encrypt目录，执行make，编译生成libencrypt.so：
 
-[liuxiaowen@produce-gateway encrypt]$ make
+$ make
 
 g++ -fPIC  -I /usr/java/default/include -I /usr/java/default/include/linux -c encrypt.cpp
 
@@ -44,7 +44,7 @@ g++ -fPIC  -shared  -o libencrypt.so encrypt.o
 
 进入decrypt目录，执行make，编译生成liblinux.so：
 
-[liuxiaowen@produce-gateway decrypt]$ make
+$ make
 
 g++ -fPIC  -I /usr/java/default/include -I /usr/java/default/include/linux -c decrypt.cpp
 
